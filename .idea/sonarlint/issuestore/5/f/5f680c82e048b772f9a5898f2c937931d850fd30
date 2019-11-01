@@ -1,0 +1,31 @@
+
+q
+squid:S109-"TAssign this magic number 480 to a well-named constant, and use the constant instead.(°îˆ8›Ôâƒâ-
+vsquid:S3008,"SRename this field "output_X" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Ÿ’æùÿÿÿÿ8›Ôâƒâ-
+Dsquid:S1659$"!Declare "tv2" on a separate line.(¥è£¾ùÿÿÿÿ8œú÷‚â-
+zsquid:S1450*"WRemove the "imageUri" field and declare it as a local variable in the relevant methods.(Ø°´şÿÿÿÿ8¿»÷â-
+lsquid:UselessImportCheck"<Remove this unused import 'android.support.v4.app.Fragment'.(îñ«úÿÿÿÿ8öšµƒâ-
+asquid:UselessImportCheck"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8ñ£ˆƒâ-
+qsquid:S3008-"SRename this field "output_Y" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°îˆ8›Ôâƒâ-
+Isquid:S2039%"+Explicitly declare the visibility for "iv".(éğãÅ8Ø¬÷‚â-
+]squid:UselessImportCheck
+"-Remove this unused import 'android.os.Build'.(ãÇ¤Úıÿÿÿÿ8©ÀÀƒâ-
+Osquid:S2039$",Explicitly declare the visibility for "tv2".(¥è£¾ùÿÿÿÿ8œú÷‚â-
+Osquid:S2039$",Explicitly declare the visibility for "tv1".(¥è£¾ùÿÿÿÿ8œú÷‚â-
+v
+squid:S109,"TAssign this magic number 480 to a well-named constant, and use the constant instead.(¿Ÿ’æùÿÿÿÿ8›Ôâƒâ-
+isquid:UselessImportCheck"?Remove this unused import 'android.provider.SyncStateContract'.(ô™öm8á“·ƒâ-
+tsquid:UselessImportCheck"DRemove this unused import 'android.support.v4.content.FileProvider'.(íÛ†Ñøÿÿÿÿ8©ÀÀƒâ-
+nsquid:S1301\"KReplace this "switch" statement by "if" statements to increase readability.(×ö³–úÿÿÿÿ8ŸŞİ¦â-
+nsquid:CommentedOutCodeLines"<This block of commented-out lines of code should be removed.(¢¸Ê§ùÿÿÿÿ8ŸŞİ¦â-
+hsquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(ÇüŞ=8ŸŞİ¦â-
+isquid:CommentedOutCodeLinez"<This block of commented-out lines of code should be removed.(ë¢³“8ŸŞİ¦â-
+nsquid:CommentedOutCodeLine|"<This block of commented-out lines of code should be removed.(«¦ı¢şÿÿÿÿ8ŸŞİ¦â-
+Ysquid:S1854:";Remove this useless assignment to local variable "channel".(µ†æõ8ŸŞİ¦â-
+o
+squid:S109_"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ãŸÇÚ8ŸŞİ¦â-
+Jsquid:S1481:",Remove this unused "channel" local variable.(µ†æõ8ŸŞİ¦â-
+Dsquid:S1166"%Either log or rethrow this exception.(‹±ÃÆ8ŸŞİ¦â-
+‡squid:S1151n"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(Ğİ¼8ŸŞİ¦â-
+‡squid:S1151~"iReduce this switch case number of lines from 6 to at most 5, for example by extracting code into methods.(ı°ö’8ŸŞİ¦â-
+Gsquid:S1148‚"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ŸŞİ¦â-

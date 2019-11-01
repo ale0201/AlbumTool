@@ -1,0 +1,12 @@
+
+• squid:MethodCyclomaticComplexity+"rThe Cyclomatic Complexity of this method "getRealPathFromUriAboveApi19" is 11 which is greater than 10 authorized.(„òìô8›Ä˙Å‚-
+nsquid:CommentedOutCodeLineO"<This block of commented-out lines of code should be removed.(íêæ≤˛ˇˇˇˇ8›Ä˙Å‚-
+Rsquid:S2196:"4Convert this "if/else if" structure into a "switch".(œ˛∫ä8›Ä˙Å‚-
+o
+squid:S109"SAssign this magic number 19 to a well-named constant, and use the constant instead.(⁄´˜{8›Ä˙Å‚-
+Csquid:S1166v"%Either log or rethrow this exception.(çî˝æ8›Ä˙Å‚-
+bsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(⁄´˜{8›Ä˙Å‚-
+Dsquid:S1075L"&Remove this hard-coded path-delimiter.(øØßÑ8›Ä˙Å‚-
+ksquid:S1142"MReduce the number of returns of this method 4, down to the maximum allowed 3.(Ñ“ˇå8›Ä˙Å‚-
+]squid:S1118":Add a private constructor to hide the implicit public one.(á€ü⁄˝ˇˇˇˇ8›Ä˙Å‚-
+hsquid:TrailingCommentCheck"6Move this trailing comment on the previous empty line.(¶˙óï˛ˇˇˇˇ8›Ä˙Å‚-
