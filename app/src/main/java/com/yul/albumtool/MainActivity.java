@@ -107,15 +107,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_OK) {
         switch (requestCode) {
             case RC_CHOOSE_PHOTO:
-                Uri uri = data.getData();
-                String filePath = FileUtil.getFilePathByUri(this, uri);
-                if (!TextUtils.isEmpty(filePath)) {
-                    openCrop(filePath);
+                if (data != null) {
+                    Uri uri = data.getData();
+                    String filePath = FileUtil.getFilePathByUri(this, uri);
+                    if (!TextUtils.isEmpty(filePath)) {
+                        openCrop(filePath);
 //                    RequestOptions requestOptions1 = new RequestOptions().skipMemoryCache(true).diskCacheStrategy(DiskCacheStrategy.NONE);
 //                    //将照片显示在 ivImage上
 //                    Glide.with(this).load(filePath).apply(requestOptions1).into(iv);
+                    }
+
                 }
                 break;
             case RC_TAKE_PHOTO:
@@ -131,6 +135,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 break;
+        }
         }
     }
 
