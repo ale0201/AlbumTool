@@ -13,7 +13,7 @@ android {
         release {
             keyAlias 'ale'
             keyPassword 'ale0201'
-            storeFile file("/Users/linkage/AndroidStudioProjects/example/AlbumTool/app/keystore/key.keystore")
+            storeFile file("${project.getProjectDir()}/keystore/key.keystore")
             storePassword 'ale0201'
         }
     }
