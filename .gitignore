@@ -27,9 +27,6 @@ proguard/
 # Mac OS X clutter
 *.DS_Store
 
-# Windows clutter
-Thumbs.db
-
 # Android Studio Navigation editor temp files
 .navigation/
 
