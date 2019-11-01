@@ -28,6 +28,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.request.RequestOptions;
+import com.meituan.android.walle.WalleChannelReader;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -54,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
         tv1 = findViewById(R.id.tv1);
         tv2 = findViewById(R.id.tv2);
         iv = findViewById(R.id.iv);
+        //获取渠道信息
+        String channel = WalleChannelReader.getChannel(this.getApplicationContext());
         context = this;
         tv1.setOnClickListener(new View.OnClickListener() {
             @Override
